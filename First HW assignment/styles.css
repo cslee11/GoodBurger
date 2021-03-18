@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header {
+    height: 700px;
+    
+}
+
+body {
+    font-size:1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.banner {
+    background-image: url(http://static1.squarespace.com/static/5e9e6fa90f8d724ee6f6ebec/t/5e9eaf5df1cdfa38f241f565/1587457893588/2020-03-31-14.50.02-2.jpg?format=1800w);
+    background-repeat: repeat-y;
+    background-position-x: 150px;
+    background-position-y: 785px;
+    display: block;
+    background-color: black;
+    height: 600px;
+    width: auto;
+    background-position:center center;
+
+        
+    
+}
+
+nav {
+
+    background-color: black;
+    display: block;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: auto 15%;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(96, 97, 92, 0.329);
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float:right
+  }
+  
+  li a {
+    font-size:3vh;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(119, 119, 118);
+  }
+  
+  .active {
+    background-color: #ffc400;
+  }
+
+main {
+    margin: auto 15%;
+}
+
+.flexboxcontainer {
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 5vh auto;
+}
+
+p {
+    line-height: 1.5;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .margin15 {
+      margin: auto 15%;
+  }
+
+  .sidecol {
+      padding: 0 3rem;
+  }
+
+  h4 {
+      font-size: 2rem;
+  }
+
+  h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 5vh auto;
+}
+
+/*FOOTER*/
+footer{
+    background-color: black;
+    color:white;
+    padding: 5%;
+}
+footer h3{
+    color:#FFC900;
+}
+footer.contacts {
+    color:white;
+}
+.contacts {
+    line-height: 1.75;
+}
+
+.footcontainer {
+    display: flex;
+    justify-content: space-around;
+    margin: auto 15%;
+}
+
+.socialmedianav a{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialmedianav img {
+    width: 3rem;
+}
